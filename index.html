@@ -45,9 +45,6 @@
             padding-top: 10px;
             
         }
-        #sign{
-            
-        }
         #head_task_2{
             font-weight: bold;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -125,6 +122,8 @@
       }
       #button_32{
         background-color: #349727;
+        
+        
       }
       .task_33{
         background-color: rgba(224, 184, 72, 0.26);
@@ -139,6 +138,7 @@
       }
       #button_33{
         background-color: #f5c951;
+        margin-bottom: 23px;
       }
       *{
         margin-left: 20px;
@@ -184,7 +184,34 @@
         padding: 12px 25px;
         border-radius: 8px;
       }
-      
+      #button_margin2{
+        margin-bottom: 32px;
+      }
+      #button_margin3{
+        margin-bottom: 10px;
+      }
+      #donation{
+        margin-left: 150px;
+        margin-top: 70px;
+      }
+      #today{
+            margin-left: 450px;
+            font-weight: bolder;            
+      }
+      .donos{
+        margin-left: 1px;
+      }
+      .dono_butt{
+        padding: 30px;
+        font-weight: bolder;
+        border-radius: 14px;
+        font-size: 45px;
+
+      }
+      #Numberr{
+            padding: 16px 500px;
+            margin-left: 30px;
+      }
     </style>
 
 </head>
@@ -240,13 +267,13 @@
         <div class="task_32" id="div_2">
             <img src="assets/card-icon.png">
         <h2>Green Energy</h2>
-        <p>Investments in solar and wind energy to ensure a sustainable and eco-friendly future.
+        <p id="button_margin2"> Investments in solar and wind energy to ensure a sustainable and eco-friendly future.</p>
         <button class="main_button" id="button_32">Learn More</button>
         </div>
         <div class="task_33" id="div_3">
             <img src="assets/card-icon.png">
         <h2>Modern Infrastructure</h2>
-        <p>Building state-of-the-art infrastructure to support economic growth and global competitieveness</p>
+        <p id="button_margin3">Building state-of-the-art infrastructure to support economic growth and global competitieveness</p>
         <button class="main_button" id="button_33">Learn More</button>
         </div>
 </div>
@@ -276,6 +303,17 @@
 
 
 
+    <div class="main_3">
+        <div>
+            <h1>Bangladesh Launches New Satellite</h1>
+            <img src="assets/al-jazeera.png">
+            <p>Date: 05/01/2025 Time: 10:25pm</p>
+            <p>Not until the creation and maintenance of decent condition of life for all people are recognized and<br> accepted as a common obligation of all people and aall countries-not until then shall we, <br>with a certain degree of justification, be able to speak of humankind as civilized </p>
+            <button id="list_button">Read more</button>
+        </div>
+            <img id="bangladesh" src="assets/satelite.png">
+    </div>
+    
     <div>
         <div class="main_3">
             
@@ -292,5 +330,19 @@
         
     </div>
 
+
+
+
+
+
+    <div id="donation">
+        <h1 id="today">Donate Today</h1>
+        <p>bangladesh 2.0 aims to redefine the nation's trajectory by embracing cutting-edge technology, promoting inclusive growth, and ensuring sustainability.<br>With initiatives in renewable energy, digital transformation, and robust infrastructure.</p>
+        <div>
+           <div class="donos"><button class="dono_butt">100 Taka</button><button class="dono_butt">200 Taka</button><button class="dono_butt">500 Taka</button><button class="dono_butt">1000 Taka</button>
+           </div> 
+           <input id="Numberr" type="number" placeholder="Other Amout (Taka)">
+        </div>
+    </div>
 </body>
 </html>
